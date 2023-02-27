@@ -10,3 +10,5 @@ import Foundation
 print("Hello, World!")
 
 print("swift is bad")
+
+var b = 2
