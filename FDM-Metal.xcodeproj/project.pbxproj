@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2270AD9A29AC95EB00916C0F /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2270AD9929AC95EB00916C0F /* main.swift */; };
+		2270ADA129AC961B00916C0F /* Compute Kernel .metal in Sources */ = {isa = PBXBuildFile; fileRef = 2270ADA029AC961B00916C0F /* Compute Kernel .metal */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,7 @@
 /* Begin PBXFileReference section */
 		2270AD9629AC95EB00916C0F /* FDM-Metal */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "FDM-Metal"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2270AD9929AC95EB00916C0F /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		2270ADA029AC961B00916C0F /* Compute Kernel .metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = "Compute Kernel .metal"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			isa = PBXGroup;
 			children = (
 				2270AD9929AC95EB00916C0F /* main.swift */,
+				2270ADA029AC961B00916C0F /* Compute Kernel .metal */,
 			);
 			path = "FDM-Metal";
 			sourceTree = "<group>";
@@ -120,6 +123,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2270ADA129AC961B00916C0F /* Compute Kernel .metal in Sources */,
 				2270AD9A29AC95EB00916C0F /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
