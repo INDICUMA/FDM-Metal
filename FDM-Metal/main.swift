@@ -66,6 +66,7 @@ var threadGroupSizeIsMultipleOfThreadExecutionWidth: Bool { true }
 let threadGroupCount = MTLSize(width:divi, height: divi, depth: 1)
 
 
+
 let startTime = CFAbsoluteTimeGetCurrent()
 
 var count : Int = 0
