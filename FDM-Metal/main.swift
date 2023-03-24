@@ -14,7 +14,7 @@ import MetalKit
 let start =  CFAbsoluteTimeGetCurrent()
 var nx : Int = 1024
 var ny : Int = 1024
-let t : Float = 1000.0
+let t : Float = 1000
 let diviN : Int = 8
 let divi : Int = nx/diviN
 let dx : Float = 1.0
