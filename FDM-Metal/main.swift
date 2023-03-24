@@ -12,8 +12,8 @@ import MetalKit
 
 //FDM parameters
 let start =  CFAbsoluteTimeGetCurrent()
-var nx : Int = 1024
-var ny : Int = 1024
+var nx : Int = 256
+var ny : Int = 256
 let t : Float = 1000
 let diviN : Int = 8
 let divi : Int = nx/diviN
